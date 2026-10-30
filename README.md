@@ -1,3 +1,5 @@
+<img src="docs/icon.png" width="96" align="right" alt="HNReader icon">
+
 # HNReader
 
 A Hacker News reader for iPhones that are stuck on iOS 6, with the look of that era: linen background, paper cards, a glossy orange bar and a leather tab bar.
