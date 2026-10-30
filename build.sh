@@ -25,6 +25,7 @@ if [ "$1" = device ]; then
         -framework UIKit -framework Foundation -framework CoreGraphics -framework QuartzCore -undefined dynamic_lookup \
         "${OBJS[@]}" -o build/device/Payload/HNReader.app/HNReader
     cp Info.plist res/*.png res/cacert.pem build/device/Payload/HNReader.app/
+    cp LICENSE THIRD_PARTY_NOTICES.md build/device/Payload/HNReader.app/
     (cd build/device && zip -q -r ../HNReader.ipa Payload)
     echo "built build/HNReader.ipa"
 else
